@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+} 
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    
+}
+
+.logo{
+    width: 100px;
+    /* border: 2px solid white;
+border-radius: 50px; */
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+header{
+    height: 60px;
+    background-color: black;
+    
+    
+}
+
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    padding: 0px 40px;   
+}
+
+.search input{
+    /* height: 493px; */
+    height: 22px;
+    border-radius: 5px;
+    margin: 0 25px 0 0px;
+    width: 248px
+    
+}
+
+.btn{
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 19px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 30px;
+}
+
+.btn:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.slider{
+    
+        height: 50vh;
+        width: 80vw;
+        margin: auto;
+        margin: 20px auto;
+        overflow: scroll;
+        
+}
+
+.card{
+    margin: auto auto 10px;
+    max-width: 91vw;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.card h2{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Rubik Distressed', cursive;
+
+}
+
+main{
+    background-color: antiquewhite;
+}
+
+h2{
+    margin: 10px auto 10px 10px;
+    
+    
+}
+.card-item{
+    /* margin: 10px 20px 10px 20px;  */
+    display: inline-flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin: 0 15px;
+    
+} 
+
+.lines{
+    margin: 0px 20px 10px 2px;
+}
+
+.cards{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    overflow:scroll;
+    /* overflow: hidden; */
+}

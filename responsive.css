@@ -1,0 +1,58 @@
+@media screen and (max-width:809px){
+
+
+    
+
+
+nav{
+    flex-direction: column;
+    overflow: visible;
+}
+
+.logo{
+    justify-content: left;
+    margin: 15px 0;
+    /* height: 20px; */
+
+}
+
+nav ul{
+    justify-content: center;
+}
+
+.search{
+    justify-content: center;
+
+}
+
+.search input{
+    margin: 10px 10px 10px 220px;
+    overflow:visible;
+}
+
+nav ul{
+    height:34px;
+}
+
+.slider {
+    height: 23vh;
+}
+
+.card-item img{
+    width: 140px;
+}
+
+header{
+    height: 135px;
+}
+
+.logo img{
+    width: 105%;
+}
+.btn{
+    overflow: visible;
+}
+*{
+    overflow: visible;
+}
+}
